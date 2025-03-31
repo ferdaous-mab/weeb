@@ -1,8 +1,9 @@
 body{
     background-color: black;
   }
-  .html{
-    font-size: 10px;
+  html {
+    touch-action: none;  /* Peut empêcher le zoom */
+    overflow: hidden;     /* Peut bloquer le défilement */
   }
   /*HEAD PARTIEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
   .rectangel{
