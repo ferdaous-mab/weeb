@@ -3,6 +3,13 @@ body{
     zoom:1;
     transform: scale(1);
   }
+  html {
+    touch-action: auto;
+    user-scalable: yes;
+    touch-action: none;
+    user-scalable: no;
+}
+
   /*HEAD PARTIEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE*/
   .rectangel{
     width: 80px;
